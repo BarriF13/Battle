@@ -7,6 +7,7 @@ require 'capybara'
 require 'capybara/rspec'
 require 'rspec'
 require 'rack/test'
+require 'features/web_helpers.rb'
 
 # tell Capybara about our app class
 Capybara.app = Battle
