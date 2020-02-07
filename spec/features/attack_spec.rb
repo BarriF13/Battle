@@ -8,4 +8,4 @@ scenario 'reduce  player 2 HP by 10' do
   expect(page).to have_content' Barri: 50HP'
   end
   
-end
+end 

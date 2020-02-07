@@ -1,6 +1,6 @@
 require 'sinatra/base'
-require './lib/player'
-require './lib/game'
+require './lib/player.rb'
+require './lib/game.rb'
 
 
 class Battle < Sinatra::Base
@@ -27,6 +27,7 @@ end
   get '/attack' do
    @game = $game
     @game.attack(@game.player_2)
+    @game.switch_turns
     erb :attack
   end
   # start the server if ruby file executed directly
