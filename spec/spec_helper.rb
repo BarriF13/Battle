@@ -1,4 +1,4 @@
-ENV['RACK_ENV'] = 'test'
+ENV['RACK_ENV'] = 'test'#faking a website for testing
 
 # require our Sinatra app file
 require File.join(File.dirname(__FILE__), '..', 'app.rb')

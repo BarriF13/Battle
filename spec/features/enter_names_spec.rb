@@ -1,4 +1,4 @@
-#require 'spec_helper'
+require 'spec_helper'
 feature 'Enter names' do
   scenario 'Submitting names' do
     sign_in_and_play
